@@ -1,0 +1,53 @@
+.top-nav-container {
+    display: flex;
+    flex-direction: row;
+    height: inherit;
+    width: 100%;
+    background-color: var(--theme-1);
+}
+
+.top-nav-left {
+    display: flex;
+    flex: 1;
+    height: inherit;
+    max-width: 25%;
+}
+
+.top-nav-center {
+    display: flex;
+    flex: 1;
+    height: inherit;
+    max-width: 50%;
+}
+
+.top-nav-right {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    height: inherit;
+    max-width: 25%;
+}
+
+.top-nav-auth-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: inherit;
+    width: fit-content;
+}
+
+.top-nav-auth-btn {
+    padding: 0.25rem 0.5rem 0.4rem 0.5rem;
+    margin-right: 0.75rem;
+    min-width: 3rem;
+    border-radius: 0.25rem;
+    color: var(--theme-6);
+    background-color: var(--theme-2);
+    border: solid 0.1rem var(--theme-5);
+}
+
+.top-nav-auth-btn:hover {
+    color: var(--theme-7);
+    border: solid 0.1rem var(--theme-7);
+}

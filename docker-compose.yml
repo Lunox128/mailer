@@ -1,0 +1,36 @@
+version: '3.8'
+services:
+  web:
+    build: .
+    ports:
+       - '4000:4000'
+    depends_on:
+       - db
+    env_file:
+      - jinx.env
+  db:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+#      PGSSLMODE: require
+#      PGSSLCERT: ./priv/cert.pem
+#      PGSSLKEY: ./priv/privkey.pem
+    ports:
+      - "5432:5432"
+    restart: always
+    volumes:
+      - /pg-new-data:/var/lib/postgresql/data
+
+  nginx:
+    image: nginx:latest
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+#      - ./priv/cert.pem:/etc/nginx/ssl/cert.pem
+#      - ./priv/privkey.pem:/etc/nginx/ssl/privkey.pem
+    ports:
+      - "80:80"
+#      - "443:443"
+    depends_on:
+      - web
+    restart: always

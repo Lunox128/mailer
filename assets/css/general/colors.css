@@ -1,0 +1,146 @@
+[data-theme-primary="Dark"] {
+    --theme-1: #111111;
+    --theme-2: #151515;
+    --theme-3: #202020;
+    --theme-4: #252525;
+    --theme-5: #333333;
+    --theme-6: #888888;
+    --theme-7: #dddddd;
+  }
+
+[data-theme-primary="Light"] {
+    --theme-1:  #c0c7cc;
+    --theme-2:  #b2b9c0;
+    --theme-3:  #a4b2b9;
+    --theme-4:  #aec3cc;
+    --theme-5:  #9db2bb;
+    --theme-6:  #151515;
+    --theme-7: #111111;
+}
+
+[data-theme-secondary="Yomi"] {
+    --s-theme-1:  #393939;
+    --s-theme-2:  #FFFF00;
+    --s-theme-3:  #FFFF00;
+    --s-theme-4:  #df11601a;
+    --s-theme-5:  #df116080;
+}
+
+[data-theme-secondary="Altair"] {
+    --s-theme-1:  #b9c0c6;
+    --s-theme-2:  #50C878;
+    --s-theme-3:  #FF639D;
+    --s-theme-4:  #b9c0c680;
+    --s-theme-5:  #b9c0c61a;
+}
+
+[data-theme-secondary="Ruby"] {
+    --s-theme-1:  #E0115F;
+    --s-theme-2:  #50C878;
+    --s-theme-3:  #FF639D;
+    --s-theme-4:  #df11601a;
+    --s-theme-5:  #df116080;
+}
+
+[data-theme-secondary="Kiara"] {
+    --s-theme-1:  #FF7F00;
+    --s-theme-2:  #1FEEA0;
+    --s-theme-3:  #80BFFF;
+    --s-theme-4:  #ff800080;
+    --s-theme-5:  #ff80001a;
+}
+
+[data-theme-secondary="Saber"] {
+    --s-theme-1:  #FFFF00;
+    --s-theme-2:  #ee82ee;
+    --s-theme-3:  #8757FF;
+    --s-theme-4:  #df11601a;
+    --s-theme-5:  #df116080;
+}
+
+[data-theme-secondary="Emerald"] {
+    --s-theme-1:  #1FEEA0;
+    --s-theme-2:  #E0115F;
+    --s-theme-3:  #1AD690;
+}
+
+[data-theme-secondary="Jinx"] {
+    --s-theme-1:  #007FFF;
+    --s-theme-2:  #FF7F00;
+    --s-theme-3:  #2391ff;
+    --s-theme-4:  #df11601a;
+    --s-theme-5:  #df116080;
+}
+
+[data-theme-secondary="Ina"] {
+    --s-theme-1:  #ee82ee;
+    --s-theme-2:  #FFFF00;
+    --s-theme-3:  #FFFF00;
+    --s-theme-4:  #df11601a;
+    --s-theme-5:  #df116080;
+}
+
+[data-theme-secondary="Seraphine"] {
+    --s-theme-1:  #ee82ee;
+    --s-theme-2:  #FFFF00;
+    --s-theme-3:  #FFFF00;
+    --s-theme-4:  #df11601a;
+    --s-theme-5:  #df116080;
+}
+
+[data-theme-secondary="Kronii"] {
+    --s-theme-1:  #007FFF;
+    --s-theme-2:  #FF7F00;
+    --s-theme-3:  #80BFFF;
+    --s-theme-4:  #df11601a;
+    --s-theme-5:  #df116080;
+}
+
+[data-depth-type$="1"] {
+    margin-left: 0;
+}
+
+
+[data-depth-type$="2"] {
+    margin-left: 2rem;
+}
+
+
+[data-depth-type$="3"] {
+    margin-left: 4rem;
+}
+
+
+[data-depth-type$="4"] {
+    margin-left: 6rem;
+}
+
+
+[data-depth-type$="5"] {
+    margin-left: 8rem;
+}
+
+[data-depth-type$="6"] {
+    margin-left: 10rem;
+}
+
+
+[data-depth-type$="7"] {
+    margin-left: 12rem;
+}
+
+
+[data-depth-type$="8"] {
+    margin-left: 14rem;
+}
+
+
+[data-depth-type$="9"] {
+    margin-left: 16rem;
+}
+
+
+[data-depth-type$="0"] {
+    margin-left: 18rem;
+}
+

@@ -1,0 +1,11 @@
+<main class="layout-page-container" data-theme-primary={@current_user.primary_theme} data-theme-secondary={@current_user.secondary_theme}>
+  <div class="layout-top-nav-container">
+    <.live_component
+      module={JinxWeb.TopNavComponent}
+      id={"top-nav-component"}
+      action={@live_action}
+      current_user={@current_user}
+      user={@user}
+    />
+  </div>
+</main>

@@ -1,0 +1,223 @@
+/* Page Container */
+
+.layout-page-container {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-height: 100vh;
+    max-height: 100%;
+    height: 100%;
+    min-width: 100%;
+    color: var(--theme-6);
+    background-color: var(--theme-3);
+}
+
+/* Wallpaper */
+
+.layout-no-wallpaper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+    min-height: 100%;
+    width: 100%;
+    background-color: var(--theme-2);
+}
+
+.layout-wallpaper-container img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+/* Banner */
+
+.layout-banner-container {
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+
+.layout-banner-container img {
+    height: auto;
+    min-width: 100%;
+}
+
+/* Top Nav */
+
+.layout-top-nav-container {
+    position: sticky;
+    top: 0;
+    display: flex;
+    height: 3rem;
+    width: 100%;
+    z-index: 999;
+    background-color: green;
+}
+
+/* Content Container */
+
+.layout-timeline-outer-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+/* Timeline Container */
+
+.layout-timeline-container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: fit-content;
+    margin-top: 1rem;
+    margin-left: auto;
+}
+
+.layout-margin-right-auto {
+    margin-right: auto;
+}
+
+/* Timeline Left */
+
+.layout-timeline-left {
+    position: sticky;
+    top: 4rem;
+    display: flex;
+    height: 100%;
+    width: 20rem;
+    margin-left: 1rem;
+    background-color: var(--theme-1);
+    border: solid 0.1rem var(--theme-5);
+    box-shadow: 0.2rem 0.2rem 0.25rem black, 0 0 0.2rem black;
+}
+
+/* Timeline Center */
+
+.layout-timeline-center {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 46rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 2rem;
+    background-color: var(--theme-1);
+    border: solid 0.1rem var(--theme-5);
+    box-shadow: 0.2rem 0.2rem 0.25rem black, 0 0 0.2rem black;
+}
+
+.layout-timeline-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: calc(100% - 1rem);
+    margin: 1rem;
+    margin-bottom: 0;
+}
+
+/* Timeline Right */
+
+.layout-timeline-right {
+    position: sticky;
+    top: 4rem;
+    display: flex;
+    height: 100%;
+    width: 20rem;
+    margin-right: 1rem;
+    background-color: var(--theme-1);
+    border: solid 0.1rem var(--theme-5);
+    box-shadow: 0.2rem 0.2rem 0.25rem black, 0 0 0.2rem black;
+}
+
+/* User Menu */
+
+.layout-user-menu {
+    position: fixed;
+    top: 4rem;
+    right: 1rem;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 1rem;
+    overflow: hidden;
+    z-index: 999;
+    
+}
+
+/* Right Component */
+
+.layout-right-container {
+    position: sticky;
+    top: 3rem;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 3.2rem);
+    min-width: 25rem;
+    max-width: 40rem;
+    margin-left: auto;
+    background-color: var(--theme-1);
+    border: solid 0.1rem var(--theme-5);
+    box-shadow: 0.2rem 0.2rem 0.25rem black, 0 0 0.2rem black;
+}
+
+
+.layout-notification-container,
+.layout-messenger-container  {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+/* Layout Top */
+
+.layout-top {
+    display: flex;
+    flex-direction: row;
+    min-height: 3rem;
+    max-height: 3rem;
+    border-bottom: solid 0.15rem var(--theme-4);
+}
+
+/* Layout Containers (Settings, New Post) */
+
+.layout-outer-container {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 10rem;
+}
+
+.layout-inner-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 45rem;
+    padding: 2rem;
+    background-color: var(--theme-1);
+    border: solid 0.1rem var(--theme-5);
+    box-shadow: 0.2rem 0.2rem 0.25rem black, 0 0 0.2rem black;
+}
+
+/* Layout Auth Container */
+
+.layout-auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: calc(100vh - 3rem);
+    width: 100%;
+
+}
+

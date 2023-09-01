@@ -1,0 +1,8 @@
+.v-input {
+    min-height: 2.15rem;
+    width: calc(100% - 0.85rem);
+    padding-left: 0.75rem;
+    font-size: 0.95rem;
+    border-radius: 0.25rem;
+    border: solid 0.1rem var(--theme-4);
+}

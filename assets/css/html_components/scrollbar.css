@@ -1,0 +1,30 @@
+::-webkit-scrollbar {
+    height: 0.65rem;
+    width: 0.65rem;
+}
+  
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track {
+    background: var(--theme-1);
+}
+  
+::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background-color: var(--theme-5);
+    border: 1px solid var(--theme-1);
+}
+
+/* Change the colors to match your theme */
+* {
+    scrollbar-color: var(--theme-5) var(--theme-1);
+}
+
+/* Set the width of the scrollbar */
+* {
+    scrollbar-width: thin;
+}
+
+body::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+}
