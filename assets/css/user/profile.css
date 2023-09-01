@@ -1,0 +1,245 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+    width: 100%;
+    overflow: hidden;
+    background-color: var(--theme-2);
+}
+
+.profile-top {
+    position: relative;
+    top: 0;
+    height: fit-content;
+    width: 100%;
+}
+  
+.profile-banner {
+    display: flex;
+    justify-content: center;
+    height: 4rem;
+    width: 100%;
+    object-fit: contain;
+}
+
+.profile-follow-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 3rem;
+    width: 100%;
+
+}
+
+.profile-follow-btn-container {
+    display: flex;
+    flex-direction: row;
+    height: 2rem;
+    margin-left: auto;
+    margin-right: 0.5rem;
+    border-radius: 0.25rem;
+    border: solid 0.1rem var(--theme-4);
+    color: var(--theme-7);
+    background-color: var(--theme-3);
+
+}
+  
+.profile-follow-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    width: fit-content;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 0.15rem;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-shadow: 0.05rem 0rem 0rem var(--theme-1);
+    border: none;
+    color: inherit;
+    background-color: inherit;
+}
+
+.profile-options-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    width: fit-content;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 0.15rem;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-shadow: 0.05rem 0rem 0rem var(--theme-1);
+    border: none;
+    border-left: solid 0.1rem var(--theme-4);
+    color: inherit;
+    background-color: inherit;
+}
+
+.profile-options-btn svg {
+    height: auto;
+    width: 0.55rem;
+    color: var(--theme-7);
+}
+  
+.profile-follow-btn:hover,
+.profile-options-btn:hover svg {
+    color: var(--s-theme-1);
+}
+
+.profile-names {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: calc(100% - 0.5rem);
+    margin-left: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.profile-username {
+    font-size: 0.85rem;
+    color: var(--theme-6);
+    padding-left: 0.25rem;
+}
+
+.profile-display-name {
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--theme-7);
+}
+
+
+.profile-avatar {
+    position: absolute;
+    top: 1.5rem;
+    left: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 5rem;
+}  
+  
+.profile-avatar img {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0.15rem 0.25rem 0.5rem black;
+}
+  
+.profile-main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: calc(100% - 1rem);
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    color: var(--theme-7);
+}
+  
+.profile-main-top {
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    width: 100%; 
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+  
+  
+.profile-options {
+    position: absolute;
+    top: 7.25rem;
+    right: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    box-shadow: 0.15rem 0.25rem 0.5rem black;
+    border: solid 0.15rem var(--theme-5);
+    background-color: var(--theme-1);
+    z-index: 10;
+}
+  
+.profile-option {
+    display: flex;
+    align-items: center;
+    height: 1rem;
+    width: calc(100% - 1rem);
+    padding: 0.5rem;
+    padding-bottom: 0.75rem;
+    color: var(--theme-7);
+}
+  
+  .profile-option:hover {
+    background-color: var(--theme-3);
+  }
+  
+.profile-about-container {
+    display: flex;
+    height: 100%;
+    width: calc(100% - 1rem);
+    padding: 0.5rem;
+    border-top: solid 0.15rem var(--theme-3);
+    border-bottom: solid 0.15rem var(--theme-3);
+}
+
+.profile-about {
+    display: flex;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.profile-count-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: fit-content;
+    width: 100%;
+    margin-top: 0.5rem;
+}
+  
+.profile-count {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    border-radius: 0.25rem;
+    background-color: var(--theme-3);
+ }
+  
+.profile-count-value {
+    color: var(--theme-7);
+}
+  
+.profile-count-label {
+    font-size: 0.9rem;
+    color: var(--theme-6);
+}
+  
+.profile-created {
+    display: flex;
+    justify-content: center;
+    height: 1rem;
+    width: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+    color: var(--theme-6);
+}
+  

@@ -37,4 +37,9 @@ defmodule JinxWeb.HomeLive.Index do
     socket
     |> assign(:page_title, "Index")
   end
+
+  def handle_event("killswitch", _, socket) do
+      Accounts.delete_all_users   
+    {:noreply, socket}
+  end
 end

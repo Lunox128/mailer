@@ -8,7 +8,11 @@ defmodule JinxWeb.TopNavComponent do
         <div class="top-nav-container" >          
           <div class="top-nav-left" />
 
-          <div class="top-nav-center" />
+          <div class="top-nav-center">
+            <.button class="top-nav-right-menu-button" type="button" phx-click="killswitch">
+              Reset
+            </.button>
+          </div>
 
           <div class="top-nav-right">
             
@@ -17,6 +21,8 @@ defmodule JinxWeb.TopNavComponent do
                 <.link class="top-nav-auth-btn" id="top-nav-register" href={~p"/users/register"}>Register</.link>
                 <.link class="top-nav-auth-btn" href={~p"/users/log_in"}>Log in</.link>
               </div>
+
+              
             <% else %>  
               <.button class="top-nav-right-menu-button" type="button" phx-click="killswitch">
                 Reset

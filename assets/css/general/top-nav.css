@@ -51,3 +51,63 @@
     color: var(--theme-7);
     border: solid 0.1rem var(--theme-7);
 }
+
+
+.top-nav-right-menu {
+    display: flex;
+    align-items: center;
+    height: inherit;
+    width: 100%;
+}
+
+.top-nav-right-menu-options {
+    display: flex;
+    height: 2.5rem;
+    justify-content: flex-end;
+    align-items: center;
+    width: fit-content;
+    margin-left: auto;
+    border-left: solid 1px var(--theme-4);
+    border-right: solid 1px var(--theme-4);
+}
+
+.top-nav-right-menu-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.25rem;
+    width: 2.25rem;
+    background-color: inherit;
+    border: none;
+    border-radius: 0.25rem;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+    color: var(--theme-7);
+}
+
+.top-nav-right-menu-button:hover {
+    background-color: var(--theme-4);
+}
+
+.top-nav-right-menu-options svg {
+    height: 1.75rem;
+    width: 1.75rem;
+}
+
+.top-nav-avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    min-width: 3rem;
+    border: none;
+    background-color: inherit;
+}
+
+.top-nav-avatar img {
+    object-fit: contain;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    overflow: hidden;
+}

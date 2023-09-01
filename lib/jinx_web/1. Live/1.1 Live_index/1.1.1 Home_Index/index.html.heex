@@ -8,4 +8,12 @@
       user={@user}
     />
   </div>
+
+  <div class="layout-user-menu none">
+    <.live_component
+      module={JinxWeb.UserMenuComponent}
+      id={"user-menu"}
+      current_user={@current_user}
+    />
+  </div>
 </main>
